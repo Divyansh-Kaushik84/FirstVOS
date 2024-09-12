@@ -9,18 +9,31 @@ import SwiftUI
 import RealityKit
 import RealityKitContent
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
+struct StartingWindow: View {
+    @Environment(\ .openWindow) private var openWindow
 
-            Text("Hello, world!")
+    var body: some View {
+        VStack (spacing:30){
+            Image(systemName: "visionpro")
+                    .font(.system(size: 150))
+                    .symbolEffect(.pulse)
+                .bold()
         }
-        .padding()
+        HStack{
+            Button(action:{
+                openWindow(id: "Window 1")
+            }){
+                Text("Window 1")
+            }
+            Button(action:{
+                openWindow(id: "Window 2")
+            }){
+                Text("Window 2")
+            }
+        }
     }
 }
 
 #Preview(windowStyle: .automatic) {
-    ContentView()
+    StartingWindow()
 }

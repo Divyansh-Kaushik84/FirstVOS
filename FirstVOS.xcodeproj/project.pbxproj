@@ -13,6 +13,8 @@
 		BB4D3F522C939D5A00645A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4D3F512C939D5A00645A64 /* Assets.xcassets */; };
 		BB4D3F552C939D5A00645A64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4D3F542C939D5A00645A64 /* Preview Assets.xcassets */; };
 		BB4D3F602C939D5A00645A64 /* FirstVOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D3F5F2C939D5A00645A64 /* FirstVOSTests.swift */; };
+		BBDACEB82C93A3B80027D826 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDACEB72C93A3B80027D826 /* SampleView.swift */; };
+		BBDACEBA2C93A6ED0027D826 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDACEB92C93A6ED0027D826 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		BB4D3F562C939D5A00645A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB4D3F5B2C939D5A00645A64 /* FirstVOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstVOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4D3F5F2C939D5A00645A64 /* FirstVOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVOSTests.swift; sourceTree = "<group>"; };
+		BBDACEB72C93A3B80027D826 /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
+		BBDACEB92C93A6ED0027D826 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				BB4D3F4D2C939D5800645A64 /* FirstVOSApp.swift */,
+				BBDACEB92C93A6ED0027D826 /* AstronautView.swift */,
 				BB4D3F4F2C939D5800645A64 /* ContentView.swift */,
+				BBDACEB72C93A3B80027D826 /* SampleView.swift */,
 				BB4D3F512C939D5A00645A64 /* Assets.xcassets */,
 				BB4D3F562C939D5A00645A64 /* Info.plist */,
 				BB4D3F532C939D5A00645A64 /* Preview Content */,
@@ -215,6 +221,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB4D3F502C939D5800645A64 /* ContentView.swift in Sources */,
+				BBDACEB82C93A3B80027D826 /* SampleView.swift in Sources */,
+				BBDACEBA2C93A6ED0027D826 /* AstronautView.swift in Sources */,
 				BB4D3F4E2C939D5800645A64 /* FirstVOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
